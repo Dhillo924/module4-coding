@@ -14,7 +14,7 @@ Expected Output:
 */
 
 (function(){
-    var names = [" Yaakov", "Yaakov", "Henry", "Lara", "Paul", "Frank", "Maria", "Rim"];
+    var names = [" Yaakov", "Yaakov", "Henry", "Lara", "Paul", "Frank", "Maria", "Jim"];
     for (var i=0; i < names.length; i++) {
       var firstLetter = names [i].charAt(0).toLowerCase();
       if (firstLetter === 'j') {
