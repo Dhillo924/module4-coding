@@ -1,11 +1,7 @@
-(
-  function(){
-    //*****************************
-  // START HERE IF YOU WANT A MORE CHALLENGING STARTING POINT FOR THIS ASSIGNMENT
-  //*******************************
-  //
-  //Module 4 Assignment Instructions.
-  //
+/*
+Solution of assignment 4:
+Expected Output:
+
   
   Hello Yaakov
   Good Bye Yaakov
@@ -14,7 +10,10 @@
   Hello Paul
   Hello Frank
     Hello Maria
-    Good Bye Rim
+    Good Bye Jim
+*/
+
+(function(){
     var names = [" Yaakov", "Yaakov", "Henry", "Lara", "Paul", "Frank", "Maria", "Rim"];
     for (var i=0; i < names.length; i++) {
       var firstLetter = names [i].charAt(0).toLowerCase();
